@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">app.flyingmanta.co</domain>
+        <domain includeSubdomains="true">flyingmanta-dev-lite-lb-191135024.us-west-2.elb.amazonaws.com</domain>
+        <domain includeSubdomains="true">dev.flyingmanta.co</domain>
+        <domain includeSubdomains="true">flymanta-prod-lite-lb-1948184872.us-west-2.elb.amazonaws.com</domain>
+    </domain-config>
+</network-security-config>
